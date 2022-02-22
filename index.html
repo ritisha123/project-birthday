@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head>
+	<title>Birthday wishes</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_backgorund" onload="new_image()">
+	<center>
+		<br><br>
+		<!--- Create canvas --->
+		<div class="canvas-container" style="width: 600px; height: 400px; position: relative; user-select: none;"><canvas id="myCanvas" width="600" height="400" class="lower-canvas" style="position: absolute; width: 600px; height: 400px; left: 0px; top: 0px; touch-action: none; user-select: none;"></canvas><canvas class="upper-canvas " width="600" height="400" style="position: absolute; width: 600px; height: 400px; left: 0px; top: 0px; touch-action: none; user-select: none; cursor: move;"></canvas></div>
+		<br>
+		<!--- Create Bootstrap button --->
+		<button class="btn btn-warning btn-lg" onclick="playSound()">Dear Mom</button>
+
+	</center>
+	<audio id="myAudio" src="Traditional-Happy-Birthday-To-You-Song.mp3"></audio>
+	<script src="main.js"></script>
+
+
+</body>
+</html>
